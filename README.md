@@ -137,7 +137,7 @@ The typing test features **five unique story-based paragraphs** (150–200 words
 - **The Artisan’s Market** – A lively market of crafts and music.
 
 > To modify or add paragraphs, edit the `paragraphs` array in:
-> **`src/data/paragraphs.jsx`**
+> **`src/data/paragraphs.js`**
 
 ---
 
