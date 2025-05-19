@@ -14,8 +14,8 @@ A **modern, interactive typing test** web application built with **React**, **Vi
 
 - ⏱ **Flexible Test Durations** – Choose between 15s, 30s, or 60s.
 - 📖 **Engaging Paragraphs** – Type through rich, story-driven paragraphs.
-- 🧠 **Real-Time Feedback** – Correct characters show green, incorrect in red, with a blue cursor indicator.
-- 📊 **Accurate Results** – Displays WPM and accuracy after each test.
+- 🧠 **Real-Time Feedback** – Correct characters show white, incorrect in red, with a blue cursor indicator.
+- 📊 **Accurate Results** – Displays WPM (words per minutes) and accuracy after each test.
 - 💻 **Responsive Design** – Dark-themed UI for desktop and mobile.
 - ✨ **Smooth Animations** – Transitions on highlights and buttons.
 - 🧩 **Modular Architecture** – Easy-to-maintain React component structure.
@@ -67,9 +67,7 @@ export default {
 
 **`src/index.css`**
 ```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 ```
 
 ---
@@ -111,6 +109,8 @@ The build output will be in the `dist/` folder.
 ```
 typing-test/
 ├── src/
+|   ├── data/
+|   |   └── paragraphs.js     # paragraphs array
 │   ├── components/
 │   │   └── TypingTest.jsx    # Core typing test logic
 │   ├── App.jsx               # Main app component
