@@ -67,7 +67,7 @@ const TypingTest = () => {
     return text.split('').map((char, index) => {
       let className = 'text-gray-900 transition-all duration-200 font-semibold';
       if (index < input.length) {
-        className += input[index] === char ? ' text-green-500' : ' text-red-300';
+        className += input[index] === char ? ' text-white' : ' text-red-300';
       } else if (index === input.length) {
         className += ' border-b-2 border-blue-300';
       }
