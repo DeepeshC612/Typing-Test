@@ -79,6 +79,7 @@ npx serve dist
 
 
 Project Structure
+``
 typing-test/
 ├── src/
 │   ├── components/
@@ -92,29 +93,32 @@ typing-test/
 ├── package.json              # Dependencies and scripts
 ├── vite.config.js            # Vite configuration
 └── README.md                 # Project documentation
+``
 
 Paragraphs
 The typing test features five unique paragraphs (150–200 words each) to keep the experience engaging:
-
+``
 The Enchanted Forest: A mystical woodland with glowing mushrooms and hidden springs.
 The Clockmaker’s Legacy: A tale of intricate clocks and a mysterious disappearance.
 The Library of Infinite Tales: A vast library filled with stories from countless worlds.
 The Mountain’s Whisper: A journey up a sacred mountain with visions of the future.
 The Artisan’s Market: A vibrant market bustling with crafts and music.
+``
 
 To modify or add paragraphs, update the paragraphs array in src/components/TypingTest.jsx.
 Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository.
+``
 Create a feature branch:git checkout -b feature/your-feature
-
-
+``
+``
 Commit your changes:git commit -m "Add your feature"
-
-
+``
+``
 Push to the branch:git push origin feature/your-feature
-
+``
 
 Open a pull request on GitHub.
 
@@ -127,13 +131,13 @@ Runtime Errors: Check the browser console (F12 > Console) for details. Common is
 Issues: Open a GitHub issue with error details for assistance.
 
 Future Enhancements
-
+``
 Add user profiles to save high scores.
 Implement difficulty levels (e.g., simple vs. complex paragraphs).
 Support multilingual paragraphs.
 Add keyboard sound effects or visual themes.
 Integrate a leaderboard for competitive typing.
-
+``
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 Contact
