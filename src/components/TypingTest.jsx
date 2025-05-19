@@ -53,7 +53,7 @@ const TypingTest = () => {
     for (let i = 0; i < Math.min(input.length, text.length); i++) {
       if (input[i] === text[i]) correctChars++;
     }
-    const calculatedAccuracy = text.length > 0 ? Math.round((correctChars / text.length) * 100) : 0;
+    const calculatedAccuracy = input.length > 0 ? Math.round((correctChars / input.length) * 100) : 0;
     setWPM(calculatedWPM);
     setAccuracy(calculatedAccuracy);
   };
