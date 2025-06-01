@@ -1,0 +1,6 @@
+applications:
+  - name: typing-test
+    memory: 512M
+    instances: 1
+    docker:
+      image: deepeshc612/typing-test
